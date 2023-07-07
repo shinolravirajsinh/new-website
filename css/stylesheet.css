@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* miniheader css start  */
+
+
+.dropdownmenu{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.miniheader{
+    background-color: rgb(2, 2, 29);
+}
+.miniheadercontant{
+    display: flex;
+    justify-content:space-between;
+   
+  
+}
+.fafafonticon{
+    color: goldenrod;
+}
+.atag{
+    text-decoration: none;
+    color: white;
+}
+.miniheadertext{
+    color: white;
+}
+.fafafonticon2{
+    color: white;
+}
+.miniheadertext:hover{
+    background-color: goldenrod;
+    color: black;
+}
+.fafafonticon2:hover{
+    color: goldenrod;
+}
+/* miniheader css end  */
+/* header start  */
+.logo{
+    width: 250px;
+    padding: 10px;
+    
+}
+.headermenu li a {
+    text-decoration: none;
+    color: rgb(2, 2, 29);
+    font-weight: bold;
+}
+.headermenu li{
+    list-style: none;
+    display: inline-block;
+    
+    padding: 10px;
+}
+.headermenu li a:hover{
+    color: goldenrod;
+
+}
+.headerline{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.fafafonticon3{
+    color:rgb(2, 2, 29);
+    padding: 10px;
+    font-size: 20px;
+}
+.fafafonticon3:hover{
+    color: goldenrod;
+}
+/* header end  */
+
+/* banner start  */
+.bannerimg{
+    height: calc(85vh);
+    position: relative;
+    width: 100%;
+}
+.bannertext{
+    font-weight: bold;
+    line-height: 0.8;
+    font-size: 50px;
+    word-wrap: break-word;
+    color: rgb(2, 2, 29);
+    position: absolute;
+    top: 40%;
+    left: 10%;
+
+}
+span{
+    color: goldenrod;
+}
+.bannerbutton{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(2, 2, 29);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.bannerbutton:hover{
+    background-color: goldenrod;
+    color: black;
+}
+/* banner end  */
+
+/* <!-- start our industry css --> */
+.industry{
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    box-shadow: 20px 20px 50px grey;
+}
+.ourindusrty{
+    border:solid 0.5px white;
+    text-align: center;
+}
+.ourindusrty:hover{
+    background-color:rgb(2, 2, 29);
+    color: white;
+}
+.fonticon4{
+    font-size: 20px;
+    color: goldenrod;
+}
+.heading{
+    font-weight: bold;
+    color: rgb(2, 2, 29);
+}
+.heading:hover{
+    font-weight: bold;
+    color: white;
+}
+.industryheading{
+    text-align: center;
+    font-weight: bold;
+    color:rgb(2, 2, 29);
+    text-decoration-line: underline;
+    text-decoration-color: goldenrod;
+
+}
+
+/* <!-- end our industry --> */
+/* start second banner css  */
+
+
+.secondbanner{
+  position: relative;
+   
+}
+.secondbannercontent{
+    color: white;
+    position: absolute;
+    top: 100px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 35% 35%;
+    gap:4%;
+    
+}
+.secondbannertext{
+    text-align: justify;
+    line-height: 1;
+    
+}
+.secondbannerbutton{
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+/* end second banner css  */
+
+/* start testimonial */
+.testimonialcontent{
+    color: rgb(2, 2, 29);
+}
+.testimonial{
+    color: goldenrod;
+    font-size: 50px;
+}
+.qoutetext{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(2, 2, 29);
+}
+.testimonialimg{
+    width: 5%;
+    border-radius: 50%;
+    height: calc(8vh);
+}
+.testimonialimg:hover{
+    width: 8%;
+    height: calc(10vh);
+}
+.personname{
+    font-weight: bold;
+}
+.star-active{
+    color: goldenrod;
+    width:88%;
+}
+
+
+/* end testimonial */
+
+/* start review css */
+.review{
+    position: relative;
+}
+.reviewbgimg{
+    width: 100%;
+    
+}
+.reviewcontent{
+    position: absolute;
+    color: white;
+    top:15%;
+    width: 100%;
+    text-align: center;
+
+}
+.reviewbox{
+    position: absolute;
+    top:45% ;
+    width: 100%;
+    text-align: center;
+    
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    
+}
+.reviewfafaicon{
+    color: white;
+    font-size: 30px;
+
+}
+.reviewfafaicon:hover{
+    color:goldenrod;
+    font-size: 30px;
+
+}
+.number{
+    color: goldenrod;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* end review css */
+
+/* start news css */
+.newstext{
+    font-weight: bold;
+    color: rgb(2, 2, 29);
+    text-align: center;
+}
+.newscontent{
+    width: 100%;
+    display: grid;
+    grid-template-columns:50% 50%;
+}
+.newspart1{
+    width: 100%;
+    height: 300px;
+   
+    display: flex;
+}
+.newspart2{
+    width: 100%;
+    height: 300px;
+   
+    display: flex;
+}
+.newsimg1{
+    width: 50%;
+    height: calc(30vh);
+}
+.newsimg2{
+    width: 50%;
+    height: calc(30vh);
+}
+.date{
+    color: goldenrod;
+    font-weight: bold;
+}
+.newstexts{
+    color:rgb(2, 2, 29);
+}
+.newshighlight{
+    font-weight: bold;
+}
+/* end news css  */
+
+/* start map and form css */
+.mapform{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.mapimg{
+    width: 100%;
+}
+.textform{
+    color: white;
+}
+.formstarttext{
+    color: white;
+    font-weight: bold;
+}
+.formbgimg{
+    width: 100%; 
+}
+.imgposition{
+    position: relative;
+   
+}
+.formuppertetx{
+    position: absolute;
+    top: 5%;
+    padding: 20px;
+
+}
+.forminput{
+ padding: 10px;   
+}
+.formbutton{
+    padding: 10px;
+    width: 200px;
+    background-color: goldenrod;
+    font-weight: bold;
+    border: none;
+}
+.formbutton:hover{
+    background-color: rgb(2, 2, 29);
+    color: white;
+}
+/* end map and form css */
+/* start companys logo css */
+.logosimg{
+
+filter: grayscale(100%);
+}
+.logosimg:hover{
+   
+    filter: grayscale(0%);
+}
+
+/* end companys logo css  */
+/* start footer  */
+.footerbg{
+    background-color: rgb(2, 2, 29);
+    color: gray;
+}
+.footerlogo{
+    width: 70%;
+}
+
+footer ul li{
+   
+    list-style: none;
+}
+footer ul li:hover{
+    color: goldenrod;
+}
+li a{
+    text-decoration: none;
+    color:gray;
+}
+.footersection2{
+    display: flex;
+}
+.mainfooter{
+    display: flex;
+}
+.footersectionleft{
+    display: flex;
+  
+}
+.footersectionright{
+    display: flex;
+  
+}
+.footersection1{
+    width: 50%;
+}
+.footersection2{
+    width: 50%;
+}
+.footersection3{
+    width: 50%;
+}
+.footersection4{
+    width: 50%;
+}
+.footerfafa{
+    color: goldenrod;
+}
+.atag1{
+    text-decoration: none;
+    color: gray;
+}
+.footermainfirsttext{
+    font-weight: bold;
+    color: white;
+}
+.footerinput{
+    border: none;
+    background-color: rgba(16, 16, 40, 0.83);
+    color:white;
+    padding: 5px;
+}
+.footerbutton{
+    width: 75%;
+    background-color: goldenrod;
+    border: none;
+    padding: 5px;
+
+}
+/* end footer */
+/* start minifooter */
+.minifooterbg{
+    background-color: rgb(1, 1, 11);
+    color: gray; 
+}
+.minifootercontent{
+    display:flex;
+    justify-content: space-between;
+}
+.minifootericons{
+    font-size: 25px;
+}
+.minifootericons:hover{
+    color: goldenrod;
+}
+/* end minifooter  */
